@@ -1,20 +1,9 @@
-//__filename
-//For ESModules you would wa
-/*При этом для получения пути к файлу необходимо воспользоваться 
-значением import.meta.url.substring(7), чтобы получить расположение текущего файла в рамках файловой системы.
- (Внимание, при использовании Windows потребуется другое число, на 1-3 больше чем 7.) */
+Write the root address of an https-enabled web application that continues the functionality of the previous steps. Your application should, along the
+/ wordpress route, receive a text fragment in the content GET request field, then contact https://wordpress.kodaktor.ru with the requisites
 
-app.use(bodyParser.urlencoded({extended:true}))       
-.all('/code/', r => {
- console.log(path.join(process.cwd(), 'app.js'));
-  fs.readFile(path.join(process.cwd(), 'app.js')
-    //import.meta.url.substring(8)
-    ,(err, data) => {
-      if (err) throw err;
-      r.res.set(headers).end(data);
-    });           
-})
+{gossjsstudent2017, ||| 123 ||| 456} and receive a token, and then create via the post API, in which the title is your login in this system, and the content is 
+a fragment of text received from the verifier,(req.query.content)
+in local =undefined
+verifier= it is inside nodemodule 
+and return the identifier of the created post to the verifier. On the / login route, the application should issue your login in this system (MOODLE)
 
-
-               });
-               });
